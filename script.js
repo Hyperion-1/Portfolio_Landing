@@ -151,21 +151,7 @@ animate();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("( ͡° ͜ʖ ͡°) hello there");
 
 
 

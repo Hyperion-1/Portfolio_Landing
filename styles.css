@@ -1,5 +1,4 @@
 /*default*/
-
 * {
     margin: 0;
     padding: 0;
@@ -8,43 +7,64 @@
   /*  background-color:darkslategray; /*REMOVE AFTER ADJUSTMENT (I dont want to go blind)*/
 }
 
-
 body{
     background: linear-gradient(black, blue)
 }
 
-.linebr{
-    color:rgba(7, 10, 49)
+canvas{
+    position: absolute;
+    z-index: 0;
+    width: 100%
+ /*   height: 100%  ;*/
 }
 
 
+/* Not in use save for now
 #canvasWrap{
     position: relative;
     
 }
-/*
-#canvasWrap canvas{
-    position: absolute;
-    top:0;
-    left:0;
-    z-index: 0;
-}*/
+*/
 
 #welcomeMessage{
-    position: absolute;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(151, 151, 151);
+
+    /* A ham-fisted approach to center the text but it works*/
+    padding-left: 40%;
+    padding-top: 20%;
+
+    z-index: 1;
+    position: absolute;   
+}
+#homeButton{
+    margin-top: 5%;
+    background-color: rgb(160, 160, 160);
+}
+
+
+.highlight{
+    color:rgb(175, 140, 0);
+    border-color: black;
+    border: 2px solid black; /*meh, leave for now*/
 }
 
 
 #landingCanvas{
+    text-align: center;
+    
     position: sticky;
     top: 0; left: 0;
-    width: auto; 
-    height: auto;
     background: radial-gradient(rgb(1, 31, 70), black);
 }
 
 #test0{
     position:absolute;
     color: rgb(158, 7, 7);
+}
+
+.linebr{
+    color:rgba(7, 10, 49)
 }
