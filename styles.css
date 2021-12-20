@@ -1,16 +1,50 @@
 /*default*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    background-color:darkslategray; /*REMOVE AFTER ADJUSTMENT (I dont want to go blind)*/
+  /*  background-color:darkslategray; /*REMOVE AFTER ADJUSTMENT (I dont want to go blind)*/
 }
 
-#landingCanvas{
+
+body{
+    background: linear-gradient(black, blue)
+}
+
+.linebr{
+    color:rgba(7, 10, 49)
+}
+
+
+#canvasWrap{
+    position: relative;
+    
+}
+/*
+#canvasWrap canvas{
     position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}*/
+
+#welcomeMessage{
+    position: absolute;
+    color: white;
+}
+
+
+#landingCanvas{
+    position: sticky;
     top: 0; left: 0;
-    width: 100%; 
-    height: 100%;
-    background: radial-gradient(rgb(1, 31, 70), black)
+    width: auto; 
+    height: auto;
+    background: radial-gradient(rgb(1, 31, 70), black);
+}
+
+#test0{
+    position:absolute;
+    color: rgb(158, 7, 7);
 }

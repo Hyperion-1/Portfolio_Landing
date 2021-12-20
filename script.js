@@ -52,7 +52,7 @@ class particle{
     draw(){
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-        ctx.fillStyle = '#606060';  //THIS IS THE COLOR THAT MATTERS
+        ctx.fillStyle = '#999999';  //THIS IS THE COLOR THAT MATTERS
         ctx.fill();
     }
 
