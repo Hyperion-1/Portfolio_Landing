@@ -151,7 +151,7 @@ animate();
 
 
 
-console.log("( ͡° ͜ʖ ͡°) hello there");
+console.log("( ͡° ͜ʖ ͡°) hello there");    //easter egg heh
 
 
 
