@@ -15,20 +15,59 @@ canvas{
  /*   height: 100%  ;*/
 }
 
+/*top navigation bar*/
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:5px 10%;
+}
+.navLinks{
+    list-style: none;
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+    color: royalblue;
+}
+.navLinks li a:hover{
+    color: goldenrod;
+}
+/*navigation contact button*/
+.contact button{
+    font-size: 18px;
+    color: white;
 
+    padding: 9px 25ps;
+    background-color: rgb(138, 133, 133, 1);
+    border: 2px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.contact:hover{
+    background-color: rgba(140, 112, 0, 0.7);
+}
+
+
+
+/*line break*/
 .linebr{
     color:rgba(7, 10, 49)
 }
+
 .highlight{
     color:rgb(175, 140, 0);
-   /* border-color: black;
-    border: 2px solid black; /*meh, leave for now*/
 
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 .highlight:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
+
 .section{ 
     background: linear-gradient(black, blue);
 }
