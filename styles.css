@@ -1,10 +1,9 @@
-/*default*/
+/*__________________________________________Standard HTML tagas and default(s)*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: linear-gradient(black, blue)
 }
@@ -14,8 +13,13 @@ canvas{
     width: 100%
  /*   height: 100%  ;*/
 }
+/*____________________________________________________________________________*/
 
-/*top navigation bar*/
+
+
+
+
+/*__________________________________________________________TOP NAVIGATION BAR*/
 header{
     display: flex;
     justify-content: flex-end;
@@ -36,12 +40,12 @@ header{
 .navLinks li a:hover{
     color: goldenrod;
 }
-/*navigation contact button*/
+    /*navigation contact button*/
 .contact button{
     font-size: 18px;
     color: white;
 
-    padding: 9px 25ps;
+    padding: 10px 15px;
     background-color: rgb(138, 133, 133, 1);
     border: 2px solid blue;
     border-radius: 20px;
@@ -51,7 +55,10 @@ header{
 .contact:hover{
     background-color: rgba(140, 112, 0, 0.7);
 }
-/*END NAV BAR*/
+/*_________________________________________________________________END NAV BAR*/
+
+
+
 
 
 /*line break*/
@@ -67,17 +74,21 @@ header{
 .highlight:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
-
 .section{ 
     background: linear-gradient(black, blue);
 }
 
-/*Canvas/landing area*/
+
+
+
+
+/*_________________________________________________________Canvas/landing area*/
 #welcomeMessage{
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
-    color: rgb(151, 151, 151);
+    color: rgb(197, 197, 197);
+    text-shadow: rgb(0, 0, 0);
 
     /* A ham-fisted approach to center the text but it works*/
     padding-left: 40%;
@@ -93,7 +104,8 @@ header{
     top: 0; left: 0;
     background: radial-gradient(rgb(1, 31, 70), black);
 }
-#homeButton{
+
+.canvasButton{
     margin-top: 5%;
 
     background-color: rgba(160, 160, 160, 0.15);
@@ -102,16 +114,25 @@ header{
 
     transition-duration: 0.4s;
 }
-#homeButton:hover{
+.canvasButton:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
-/*END LANDING AREA*/
+/*____________________________________________________________END LANDING AREA*/
 
 
-/* testing units */
-#test0{
-    position:absolute;
-    color: rgb(158, 7, 7);
+
+
+
+/*______________________________________________________________Skills section*/
+#skillsSection{
+    background: rgb(197, 4, 197);
 }
 
 
+
+
+
+/*____________________________________________________________Projects Section*/
+#projectsSection{
+    background: blue; 
+}
